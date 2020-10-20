@@ -1,0 +1,253 @@
+
+*{
+margin: 0;
+padding:0;
+}
+
+
+.container{
+    height: 100vh;
+    width: 1535px;
+    background-image: url("bg2.jpg");
+    background-position: center;
+    background-size:cover;
+    padding-left: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative; 
+}
+
+.white{
+    box-shadow: 2px 2px 28px #000000;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    width:1140px;
+    height: 580px;
+    background-color: white;
+    transform: translate(-50%, -50%)
+    
+} 
+
+.navbar{
+    width:100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center
+} 
+
+
+
+nav{
+    display:inline-block;
+    text-align: left;
+    flex:1;
+    padding-left: 60px;
+}
+
+
+
+nav ul li{
+    width: 50px;
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: right;
+    display:inline-block;
+    list-style:none;
+    margin: 20px 30px;
+}
+
+.navbar a:hover{
+    color: #2C8AA5;
+    transform: scale(9.8);
+   /** background-color: #9c9c9c; **/
+   /** text-decoration: underline;
+    text-underline-position: left; **/   
+}
+
+nav a {
+    column-width: 100px;
+    font-family: Arial;
+    text-decoration: none;
+    color: #1F6777;
+}
+
+.social-links {
+    position: relative;
+    display:inline-block;
+    flex:1;
+    }
+    
+.social-links ul li{
+    display:inline-block;
+    list-style:none;
+
+}
+
+.social-links a:hover{
+ opacity: .5;
+}
+
+.social-links ul li a{
+    position: relative;
+    left: 770px;
+    top: -143px;
+    margin: 30px;
+    
+}
+
+.me{
+    border-radius: 50%;
+    height: 100px;
+    transform: translate(-50px, 10px);
+}
+
+
+
+.para{
+  font-family: Cambria math;
+  transform: translate(-300px, 20px);
+    font-size:16px;
+    text-align: center;
+}
+
+.para a{
+    text-decoration: none;
+    color: #1F6777;
+}
+
+.para a:hover{
+    text-decoration: underline;
+    color: #2C8AA5;
+}
+
+.bold{
+    font-family: Cambria math;
+  transform: translate(-300px, 80px);
+    font-size:17px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form{
+    width: 40%;
+    height: 200px;
+    padding: 40px;
+    background: white;
+    transform: translate(600px,-250px);   
+}
+
+.form h2{
+    font-family: Baskerville old face;
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.form .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form .inputbox input,
+.form .inputbox textarea{
+    width: 100%;
+    padding: 3px 0;
+    font-size: 16px;
+    font-family: Baskerville old face;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid  #333;
+    outline: none;
+    resize: none;
+}
+
+.form .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+     font-size: 20px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.form .inputbox input:focus ~ span,
+.form .inputbox input:valid ~ span,
+.form .inputbox textarea:focus ~ span,
+.form .inputbox textarea:valid ~ span{
+    color: black;
+    font-size: 17px;
+    transform: translateY(-20px);   
+}
+
+.form .inputbox input[type="submit"]{
+    width: 100px;
+    background-color:#1F6777;
+    color:#D6F9F5;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px; 
+}
+
+.form .inputbox input[type="submit"]:hover{
+    opacity:.5;
+}
+
+.social-links2 {
+    position: relative;
+    display:inline-block;
+    flex:1;
+    }
+    
+.social-links2 ul li{
+    display:inline-block;
+    list-style:none;
+
+}
+
+.social-links2 a:hover{
+ opacity: .5;
+}
+
+.social-links2 ul li a{
+    position: relative;
+    left: 120px;
+    top: 110px;
+    margin: 15px;
+}
+
+.tooltip{
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext{
+    font-family: Cambria Math;
+    font-size: 20px;
+    visibility: hidden;
+    width: 20px;
+    height: 10px;
+    background-color: white;
+    color: #1F6777 ;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    position: absolute;
+    z-index: 1;
+    top:160px;
+    left: 127px;
+}
+
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}

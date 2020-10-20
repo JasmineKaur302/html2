@@ -1,0 +1,362 @@
+*{
+margin: 0;
+padding:0;
+}
+
+@media only screen and (min-width:768px){
+
+
+.container{
+    height: 100vh;
+    width: 1535px;
+    background-image: url("bg2.jpg");
+    background-position: center;
+    background-size:cover;
+    padding-left: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative; 
+}
+
+.white{
+    box-shadow: 2px 2px 28px #000000;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    width:1140px;
+    height: 580px;
+    background-color: white;
+    transform: translate(-50%, -50%)
+    
+}
+
+.me{
+  border-width: 1000px;
+  /** border-radius: 50%; **/
+  border-color: white;
+  height: 365px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(200%,-51%);
+ 
+}
+
+
+.heading{
+    font-size: 55px;
+    font-family: Calisto MT;
+    color: black;
+    margin-left: 170px;
+    margin-top: 130px;
+    transform: translate(-7%, -125%)
+}
+
+.circle{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    width:365px;
+    height: 365px;
+    background-color: #60A9BA;
+    transform: translate(48%, -46%)
+    
+} 
+
+ 
+
+ .social-links {
+    position: relative;
+    display:inline-block;
+    flex:1;
+    }
+    
+.social-links ul li{
+    display:inline-block;
+    list-style:none;
+
+}
+
+.social-links a:hover{
+  opacity: .5;
+}
+
+.social-links ul li a{
+    position: relative;
+    left: 770px;
+    top: -75px;
+    margin: 30px;
+    
+}
+
+.content{
+    font-family: Baskerville Old face;
+    font-size: 17px;
+    color: black;
+     transform: translate(9%, -403%)
+}
+
+.content2{
+    font-family: Baskerville Old face;
+    font-size: 17px;
+     color: black;
+     transform: translate(9%, -99%)
+}
+
+.navbar{
+    width:100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center
+} 
+
+
+
+nav{
+    display:inline-block;
+    text-align: left;
+    flex:1;
+    padding-left: 60px;
+}
+
+
+
+nav ul li{
+    width: 50px;
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: right;
+    display:inline-block;
+    list-style:none;
+    margin: 20px 30px;
+}
+
+.navbar a:hover{
+    color: #2C8AA5;
+    transform: scale(9.8);
+   /** background-color: #9c9c9c; **/
+   /** text-decoration: underline;
+    text-underline-position: left; **/   
+}
+
+nav a {
+    column-width: 100px;
+    font-family: Arial;
+    text-decoration: none;
+    color: #1F6777;
+}
+
+.myselff{
+  transform: translate(2%, -279%)  
+}
+
+.btn{
+      font-family: Baskerville Old face;
+        display: inline-block;
+        background: linear-gradient(180deg, #2C8AA5, #7ACACB);
+        border-radius: 8px;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: white;
+        box-shadow: 3px 8px 8px rgba(94, 28, 68, 0.15);
+        transform: translate(100%, -329%) 
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn :hover{
+    opacity: .5;
+}
+
+}
+@media only screen and (max-width:768px){
+ *{
+margin: 0;
+padding:0;
+}
+
+
+
+.container{
+    height: 999px;
+    width: 360px;
+    background-image: url("bg2.jpg");
+    background-position: center;
+    background-size:cover;
+    padding-left: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative; 
+}
+
+.white{
+    box-shadow: 2px 2px 28px #000000;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    width:330px;
+    height: 960px;
+    background-color: white;
+    transform: translate(-50%, -50%)
+    
+}
+
+.me{
+  border-width: 1000px;
+  /** border-radius: 50%; **/
+  border-color: white;
+  height: 265px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(13%,-160%);
+ 
+}
+
+
+.heading{
+    font-size: 45px;
+    font-family: Calisto MT;
+    color: black;
+    text-align: center;
+    transform: translate(2%, 190%)
+}
+
+.circle{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    width:265px;
+    height: 265px;
+    background-color: #60A9BA;
+    transform: translate(-45%, -155%)
+    
+} 
+
+ 
+
+ .social-links {
+    position: relative;
+    display:inline-block;
+    flex:1;
+    }
+    
+.social-links ul li{
+    display:inline-block;
+    list-style:none;
+
+}
+
+.social-links a:hover{
+  opacity: .5;
+}
+
+.social-links ul li a{
+    position: relative;
+    left: 20px;
+    top: 805px;
+    margin: 30px;
+    
+}
+
+.content{
+    font-family: Baskerville Old face;
+    font-size: 17px;
+    color: black;
+    text-align: center;
+     transform: translate(0%, 259%)
+}
+
+.content2{
+    font-family: Baskerville Old face;
+    font-size: 17px;
+     color: black;
+    text-align: center;
+     transform: translate(0%, 75%)
+}
+
+.navbar{
+    width:100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: right;
+} 
+
+
+
+nav{
+    display:inline-block;
+    text-align: left;
+    flex:1;
+    padding-left: 0px;
+}
+
+nav ul li{
+    width: 30px;
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: right;
+    display:inline-block;
+    list-style:none;
+    margin:20px 20px;
+}
+
+.navbar a:hover{
+    color: #2C8AA5;
+    transform: scale(9.8);
+   /** background-color: #9c9c9c; **/
+   /** text-decoration: underline;
+    text-underline-position: left; **/   
+}
+
+nav a {
+    column-width: 100px;
+    font-family: Arial;
+    text-decoration: none;
+    color: #1F6777;
+}
+
+.myselff{
+  transform: translate(2%, -279%)  
+}
+
+.btn{
+      font-family: Baskerville Old face;
+        display: inline-block;
+        background: linear-gradient(180deg, #2C8AA5, #7ACACB);
+        border-radius: 8px;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: white;
+        box-shadow: 3px 8px 8px rgba(94, 28, 68, 0.15);
+        transform: translate(95%, 599%) 
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn :hover{
+    opacity: .5;
+}
+}
